@@ -1,6 +1,0 @@
-#	Time	Color	Rating	Track Title	Message	BPM
-1	04:30	Aqua	***  	Як ніколи	1BXhl547B0asYDkesHqZmc9vzbq2	160.01
-2	04:36	Aqua	**   	Джульєтта	1BXhl547B0asYDkesHqZmc9vzbq2	118.00
-3	02:41	Orange	**** 	Boombastic_&_Бігає_по_полю_весело_кабанчик		80.00
-4	03:56	Orange	*****	Mr. Saxobeat & Party Rock Anthem	b8rth4b8vmWQbHfAflVySiktQ283	128.75
-
