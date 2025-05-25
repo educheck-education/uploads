@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ace Code Editor Example</title>
+
+    <!-- Include Ace CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ace.js" integrity="sha384-mYaB2iPA6hjGdXYmvmjFwEqqMvAKo8gFhGibq8TKPlS6IzSEeNTdoAt3xXs+xmtu" crossorigin="anonymous"></script>
+    
+    <style>
+        /* Set a height for the editor */
+        #editor {
+            height: 400px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Ace Code Editor Example</h1>
+    
+    <!-- Container for the editor -->
+    <div id="editor">console.log('Hello, World!');</div>
+
+    <script>
+        // Initialize the Ace editor
+        var editor = ace.edit("editor");
+        editor.setTheme("ace/theme/github"); // Set theme (there are several options like "monokai", "github", etc.)
+        editor.session.setMode("ace/mode/javascript"); // Set programming language (JavaScript in this case)
+    </script>
+</body>
+</html>
